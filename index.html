@@ -1,71 +1,145 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Jack Watson — Content Portfolio</title>
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f7f7f8;color:#1a1a2e}
-a{color:inherit;text-decoration:none}
-.wrap{max-width:900px;margin:0 auto;padding:0 32px}
-.header{background:linear-gradient(135deg,#1a1a2e 0%,#2d2b55 50%,#3b1f6e 100%);padding:48px 32px 40px;color:#fff}
-.header .label{font-size:12px;font-weight:700;color:#a5b4fc;text-transform:uppercase;letter-spacing:2px;margin-bottom:8px}
-.header h1{font-size:30px;font-weight:750;margin-bottom:4px}
-.header .role{font-size:15px;color:#c4b5fd;font-weight:500;margin-bottom:20px}
-.header .summary{font-size:15px;color:#d1d5db;line-height:1.7;max-width:680px}
-.evolution{background:#fff;border-radius:14px;padding:28px;margin:-28px 32px 28px;box-shadow:0 1px 4px rgba(0,0,0,.07);border:1px solid #e8e8e8;max-width:900px;margin-left:auto;margin-right:auto;position:relative}
-.evolution h3{font-size:12px;font-weight:700;color:#6366f1;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:20px}
-.evo-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px}
-.evo-item .icon{font-size:22px;margin-bottom:6px}
-.evo-item .phase{font-size:13px;font-weight:700;margin-bottom:3px}
-.evo-item .edesc{font-size:12px;color:#6b7280;line-height:1.5}
-.skills-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-bottom:28px}
-.skill-card{background:#fff;border-radius:12px;padding:18px 20px;border:1px solid #e8e8e8}
-.skill-card h4{font-size:12px;font-weight:700;color:#6366f1;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px}
-.skill-card p{font-size:13px;color:#4b5563;line-height:1.55}
-.featured{background:linear-gradient(135deg,#fdf2f8 0%,#eff6ff 100%);border-radius:14px;padding:28px;margin-bottom:20px;border:1px solid #e8e8e8}
-.featured .badge-row{display:flex;gap:8px;align-items:center;margin-bottom:10px}
-.featured h3{font-size:20px;font-weight:700;margin-bottom:6px}
-.featured p{font-size:14px;color:#4b5563;line-height:1.6;max-width:600px}
-.project-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:18px;padding-bottom:48px}
-.project-card{background:#fff;border-radius:12px;padding:22px;border:1px solid #e8e8e8;display:flex;flex-direction:column;gap:10px}
-.project-card .top{display:flex;justify-content:space-between;align-items:flex-start}
-.project-card .icon{font-size:28px}
-.project-card h3{font-size:16px;font-weight:650}
-.project-card .date{font-size:12px;color:#9ca3af;margin-top:3px}
-.project-card .pdesc{font-size:13px;color:#4b5563;line-height:1.55;flex-grow:1}
-.detail-section{margin-top:16px;padding-top:16px;border-top:1px solid #e8e8e8}
-.detail-section h4{font-size:11px;font-weight:700;color:#6366f1;text-transform:uppercase;letter-spacing:1.2px;margin-bottom:8px}
-.impact-item{display:flex;gap:8px;margin-bottom:6px;font-size:13px;color:#374151;line-height:1.5}
-.impact-item .check{color:#10b981;font-weight:700;flex-shrink:0}
-.role-box{background:#f9fafb;border-radius:10px;padding:14px;margin-top:12px}
-.role-box h4{font-size:11px;font-weight:700;color:#6366f1;text-transform:uppercase;letter-spacing:1.2px;margin-bottom:4px}
-.role-box p{font-size:13px;color:#374151}
-@media(max-width:600px){.wrap{padding:0 16px}.header{padding:32px 16px 28px}.evolution{margin:-20px 16px 20px;padding:20px}}
-</style>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.4">
+  <style type="text/css">
+    body {background-color: #f5f5f6}
+    p.p1 {margin: 0.0px 0.0px 8.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #94a2fb; -webkit-text-stroke: #94a2fb}
+    p.p3 {margin: 0.0px 0.0px 20.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #b7a2fc; -webkit-text-stroke: #b7a2fc}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #c7cbd3; -webkit-text-stroke: #c7cbd3}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 22.0px '.Apple Color Emoji UI'; color: #141322; -webkit-text-stroke: #141322}
+    p.p7 {margin: 0.0px 0.0px 3.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #141322; -webkit-text-stroke: #141322}
+    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #585e6d; -webkit-text-stroke: #585e6d}
+    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #3b4350; -webkit-text-stroke: #3b4350}
+    p.p11 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #d00464; -webkit-text-stroke: #d00464; background-color: #ffffff}
+    p.p12 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #d00464; -webkit-text-stroke: #d00464; background-color: #fceef6}
+    p.p14 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #3b4350; -webkit-text-stroke: #3b4350}
+    p.p16 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #1bae6e; -webkit-text-stroke: #1bae6e}
+    p.p17 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #2a3140; -webkit-text-stroke: #2a3140}
+    p.p19 {margin: 0.0px 0.0px 0.0px 0.0px; font: 28.0px '.Apple Color Emoji UI'; color: #141322; -webkit-text-stroke: #141322}
+    p.p20 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #1b963a; -webkit-text-stroke: #1b963a; background-color: #edfdf1}
+    p.p22 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #8a929f; -webkit-text-stroke: #8a929f}
+    p.p23 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #1d48e6; -webkit-text-stroke: #1d48e6; background-color: #ebf3ff}
+    p.p24 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #bd7809; -webkit-text-stroke: #bd7809; background-color: #fefce2}
+    span.s1 {font-kerning: none}
+    span.s2 {font-kerning: none; background-color: #ffffff}
+    span.s3 {font: 11.0px '.Apple Color Emoji UI'; font-kerning: none}
+    span.s4 {font: 20.0px '.Apple Color Emoji UI'; font-kerning: none}
+    span.s5 {font-kerning: none; background-color: #f7f9fa}
+  </style>
 </head>
 <body>
-<div class="header"><div class="wrap">
-<p class="label">Content Portfolio · 2025–2026</p>
-<h1>Jack Watson</h1>
-<p class="role">Senior Content Executive — Paramount Digital</p>
-<p class="summary">Over the past 12 months, my role has evolved from content writing into something much broader: AI-integrated content strategy, technical site auditing, data-driven planning, and hands-on client management. This portfolio captures that journey — from adopting AI tools like Claude, ChatGPT, Perplexity and Gemini into daily workflows, to leading the agency's first content-only digital marketing campaign.</p>
-</div></div>
-<div class="wrap">
-<div class="evolution">
-<h3>How My Role Has Evolved</h3>
-<div class="evo-grid">
-<div class="evo-item"><div class="icon">✍️</div><p class="phase">Content Writer</p><p class="edesc">Writing blogs, articles, and copy for client campaigns</p></div><div class="evo-item"><div class="icon">🤖</div><p class="phase">AI-Integrated Strategist</p><p class="edesc">Embedding Claude, ChatGPT, Perplexity & Gemini into research, ideation, and production workflows</p></div><div class="evo-item"><div class="icon">📊</div><p class="phase">Technical Auditor & Planner</p><p class="edesc">Running site audits, translating data into actionable content plans using AI-assisted analysis</p></div><div class="evo-item"><div class="icon">🚀</div><p class="phase">Client & Campaign Lead</p><p class="edesc">Managing client relationships and leading Concept Hygiene — the agency's first content-only campaign</p></div>
-</div>
-</div>
-<div class="skills-grid">
-<div class="skill-card"><h4>AI Tools</h4><p>Claude, ChatGPT, Perplexity, Gemini — used for research, content ideation, drafting, data analysis, and reporting</p></div><div class="skill-card"><h4>Site Auditing</h4><p>Technical content audits, gap analysis, performance benchmarking, competitor research</p></div><div class="skill-card"><h4>Strategy & Planning</h4><p>AI-assisted content plans, keyword mapping, editorial calendars, campaign architecture</p></div><div class="skill-card"><h4>Reporting & Comms</h4><p>Client-facing reports, internal presentations, stakeholder management, campaign performance analysis</p></div>
-</div>
-<div class="featured"><div class="badge-row"><span style="font-size:11px;font-weight:700;color:#db2777;background:#fff;padding:3px 10px;border-radius:20px;border:1px solid #fbcfe8">⭐ FEATURED PROJECT</span><span style="font-size:11px;font-weight:700;color:#db2777;background:#fdf2f8;border:1px solid #fbcfe8;padding:3px 10px;border-radius:20px;text-transform:uppercase;letter-spacing:0.5px">Client Leadership</span></div><h3>🚀 Concept Hygiene — Content-Only Campaign</h3><p>Led the agency's first ever content-only digital marketing campaign from strategy through execution. Managed the full client relationship, developed the content plan, and coordinated delivery across all touchpoints.</p><div class="detail-section"><h4>Key Impact</h4><div class="impact-item"><span class="check">✓</span><span>First content-only campaign in agency history</span></div><div class="impact-item"><span class="check">✓</span><span>Full client ownership from pitch to reporting</span></div><div class="impact-item"><span class="check">✓</span><span>Established a repeatable framework for future content-led campaigns</span></div></div><div class="role-box"><h4>My Role</h4><p>Campaign lead, client manager, content strategist</p></div></div>
-<div class="project-grid">
-<div class="project-card"><div class="top"><span class="icon">🤖</span><span style="font-size:11px;font-weight:700;color:#16a34a;background:#f0fdf4;border:1px solid #bbf7d0;padding:3px 10px;border-radius:20px;text-transform:uppercase;letter-spacing:0.5px">AI Workflows</span></div><div><h3>AI-Powered Content Production Pipeline</h3><p class="date">Mid 2025</p></div><p class="pdesc">Developed a personal workflow integrating Claude, ChatGPT, Perplexity, and Gemini across different stages of content production — from research and ideation through drafting and editing. Each tool is used for its strengths rather than as a one-size-fits-all replacement.</p><div class="detail-section"><h4>Key Impact</h4><div class="impact-item"><span class="check">✓</span><span>Faster turnaround on research-heavy pieces</span></div><div class="impact-item"><span class="check">✓</span><span>Higher consistency in tone and quality across clients</span></div><div class="impact-item"><span class="check">✓</span><span>Became the go-to resource for AI-assisted content within the team</span></div></div><div class="role-box"><h4>My Role</h4><p>Workflow design, tool evaluation, internal knowledge sharing</p></div></div><div class="project-card"><div class="top"><span class="icon">🔍</span><span style="font-size:11px;font-weight:700;color:#2563eb;background:#eff6ff;border:1px solid #bfdbfe;padding:3px 10px;border-radius:20px;text-transform:uppercase;letter-spacing:0.5px">Audits & Strategy</span></div><div><h3>Client Website Content Audits</h3><p class="date">Ongoing</p></div><p class="pdesc">Conducted comprehensive content audits across multiple client websites — analysing performance data, identifying gaps, and producing actionable recommendations. Used AI tools to accelerate analysis and surface patterns in large datasets.</p><div class="detail-section"><h4>Key Impact</h4><div class="impact-item"><span class="check">✓</span><span>Audit findings directly shaped quarterly content plans</span></div><div class="impact-item"><span class="check">✓</span><span>Identified high-impact quick wins for underperforming pages</span></div><div class="impact-item"><span class="check">✓</span><span>Reports presented to both internal teams and client stakeholders</span></div></div><div class="role-box"><h4>My Role</h4><p>Auditing, data analysis, AI-assisted insight generation, reporting</p></div></div><div class="project-card"><div class="top"><span class="icon">📋</span><span style="font-size:11px;font-weight:700;color:#2563eb;background:#eff6ff;border:1px solid #bfdbfe;padding:3px 10px;border-radius:20px;text-transform:uppercase;letter-spacing:0.5px">Audits & Strategy</span></div><div><h3>AI-Assisted Content Planning</h3><p class="date">Ongoing</p></div><p class="pdesc">Translated audit data and market research into structured content plans using AI tools for pattern recognition, keyword clustering, and content gap prioritisation. Plans were tailored per client and presented with clear rationale.</p><div class="detail-section"><h4>Key Impact</h4><div class="impact-item"><span class="check">✓</span><span>Plans adopted across multiple client accounts</span></div><div class="impact-item"><span class="check">✓</span><span>Reduced planning time while increasing depth of analysis</span></div><div class="impact-item"><span class="check">✓</span><span>Improved alignment between content output and business goals</span></div></div><div class="role-box"><h4>My Role</h4><p>Strategic planning, AI-assisted analysis, client presentation</p></div></div><div class="project-card"><div class="top"><span class="icon">📝</span><span style="font-size:11px;font-weight:700;color:#ca8a04;background:#fefce8;border:1px solid #fef08a;padding:3px 10px;border-radius:20px;text-transform:uppercase;letter-spacing:0.5px">Content Pieces</span></div><div><h3>Blog Posts, Articles & Long-Form Content</h3><p class="date">Ongoing</p></div><p class="pdesc">Continued to produce high-quality written content across a range of industries and formats — from SEO-driven blog posts to thought leadership articles. AI tools used to support research and first-draft ideation, with human judgment and editing throughout.</p><div class="detail-section"><h4>Key Impact</h4><div class="impact-item"><span class="check">✓</span><span>Consistent publishing cadence across all clients</span></div><div class="impact-item"><span class="check">✓</span><span>Organic traffic growth on key content pieces</span></div><div class="impact-item"><span class="check">✓</span><span>Maintained quality bar while increasing output volume</span></div></div><div class="role-box"><h4>My Role</h4><p>Research, writing, editing, SEO optimisation</p></div></div><div class="project-card"><div class="top"><span class="icon">🤝</span><span style="font-size:11px;font-weight:700;color:#db2777;background:#fdf2f8;border:1px solid #fbcfe8;padding:3px 10px;border-radius:20px;text-transform:uppercase;letter-spacing:0.5px">Client Leadership</span></div><div><h3>Client Reporting & Stakeholder Communication</h3><p class="date">Ongoing</p></div><p class="pdesc">Took on increasing responsibility for client-facing communication — presenting audit findings, campaign performance, and strategic recommendations to stakeholders at various levels.</p><div class="detail-section"><h4>Key Impact</h4><div class="impact-item"><span class="check">✓</span><span>Built trust and credibility with client contacts</span></div><div class="impact-item"><span class="check">✓</span><span>Improved feedback loops between content team and clients</span></div><div class="impact-item"><span class="check">✓</span><span>Contributed to client retention and account growth</span></div></div><div class="role-box"><h4>My Role</h4><p>Reporting, presentation, relationship management</p></div></div>
-</div>
-</div>
+<p class="p1"><span class="s1"><b>CONTENT PORTFOLIO · 2025–2026</b></span></p>
+<h1 style="margin: 0.0px 0.0px 4.0px 0.0px; font: 30.0px 'Helvetica Neue'; color: #ffffff; -webkit-text-stroke: #ffffff"><span class="s1">Jack Watson</span></h1>
+<p class="p3"><span class="s1">Senior Content Executive — Paramount Digital</span></p>
+<p class="p4"><span class="s1">Over the past 12 months, my role has evolved from content writing into something much broader: AI-integrated content strategy, technical site auditing, data-driven planning, and hands-on client management. This portfolio captures that journey — from adopting AI tools like Claude, ChatGPT, Perplexity and Gemini into daily workflows, to leading the agency's first content-only digital marketing campaign.</span></p>
+<h3 style="margin: 0.0px 0.0px 20.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #504aed; -webkit-text-stroke: #504aed"><span class="s2"><b>HOW MY ROLE HAS EVOLVED</b><b></b></span></h3>
+<p class="p6"><span class="s2">✍️</span></p>
+<p class="p7"><span class="s2"><b>Content Writer</b><b></b></span></p>
+<p class="p8"><span class="s2">Writing blogs, optimising existing content, and creating fresh category page copy for client campaigns</span></p>
+<p class="p6"><span class="s2">🤖</span></p>
+<p class="p7"><span class="s2"><b>AI-Integrated Strategist</b><b></b></span></p>
+<p class="p8"><span class="s2">Embedding Claude, ChatGPT, Perplexity &amp; Gemini into research, ideation, and production workflows</span></p>
+<p class="p6"><span class="s2">📊</span></p>
+<p class="p7"><span class="s2"><b>Technical Auditor &amp; Planner</b><b></b></span></p>
+<p class="p8"><span class="s2">Running site audits, translating data into actionable content plans using AI-assisted analysis</span></p>
+<p class="p6"><span class="s2">🚀</span></p>
+<p class="p7"><span class="s2"><b>Client &amp; Campaign Lead</b><b></b></span></p>
+<p class="p8"><span class="s2">Managing client relationships and leading Concept Hygiene — the agency's first content-only campaign</span></p>
+<h4 style="margin: 0.0px 0.0px 6.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #504aed; -webkit-text-stroke: #504aed"><span class="s2"><b>AI TOOLS</b><b></b></span></h4>
+<p class="p10"><span class="s2">Claude, ChatGPT, Perplexity, Gemini — used for research, content ideation, data analysis, reporting, and interactive HTML generation</span></p>
+<h4 style="margin: 0.0px 0.0px 6.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #504aed; -webkit-text-stroke: #504aed"><span class="s2"><b>SITE AUDITING</b><b></b></span></h4>
+<p class="p10"><span class="s2">Technical content audits, gap analysis, performance benchmarking, competitor research</span></p>
+<h4 style="margin: 0.0px 0.0px 6.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #504aed; -webkit-text-stroke: #504aed"><span class="s2"><b>STRATEGY &amp; PLANNING</b><b></b></span></h4>
+<p class="p10"><span class="s2">AI-assisted content plans, keyword mapping, editorial calendars, campaign strategy</span></p>
+<h4 style="margin: 0.0px 0.0px 6.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #504aed; -webkit-text-stroke: #504aed"><span class="s2"><b>REPORTING &amp; COMMS</b><b></b></span></h4>
+<p class="p10"><span class="s2">Client-facing reports, internal presentations, campaign performance analysis</span></p>
+<p class="p11"><span class="s3">⭐</span><span class="s1"><b> FEATURED PROJECT</b></span></p>
+<p class="p12"><span class="s1"><b>CLIENT LEADERSHIP</b></span></p>
+<h3 style="margin: 0.0px 0.0px 6.0px 0.0px; font: 20.0px 'Helvetica Neue'; color: #141322; -webkit-text-stroke: #141322"><span class="s4">🚀</span><span class="s1"><b> Concept Hygiene — Content-Only Campaign</b></span></h3>
+<p class="p14"><span class="s1">Led Paramount Digital’s first content-only digital marketing campaign from strategy through to execution. Managed the full client relationship, developed the content plan, and coordinated delivery across all touch points.</span></p>
+<h4 style="margin: 0.0px 0.0px 8.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #504aed; -webkit-text-stroke: #504aed"><span class="s1"><b>KEY IMPACT</b></span></h4>
+<p class="p16"><span class="s1"><b>✓</b></span></p>
+<p class="p17"><span class="s1">First content-only campaign in agency history</span></p>
+<p class="p16"><span class="s1"><b>✓</b></span></p>
+<p class="p17"><span class="s1">Full client ownership from pitch to reporting</span></p>
+<p class="p16"><span class="s1"><b>✓</b></span></p>
+<p class="p17"><span class="s1">Established a repeatable framework for future content-led campaigns</span></p>
+<h4 style="margin: 0.0px 0.0px 4.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #504aed; -webkit-text-stroke: #504aed"><span class="s5"><b>MY ROLE</b><b></b></span></h4>
+<p class="p17"><span class="s5">Campaign lead, client manager, content strategist</span></p>
+<p class="p19"><span class="s2">🤖</span></p>
+<p class="p20"><span class="s1"><b>AI WORKFLOWS</b></span></p>
+<h3 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #141322; -webkit-text-stroke: #141322"><span class="s2">AI-Powered Content Production Pipeline</span></h3>
+<p class="p22"><span class="s2">Mid 2025</span></p>
+<p class="p10"><span class="s2">Developed a personal workflow integrating Claude, ChatGPT, Perplexity, and Gemini across different stages of content production — from research and ideation through editing and reporting. Each tool is used for its strengths rather than as a one-size-fits-all replacement.</span></p>
+<h4 style="margin: 0.0px 0.0px 8.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #504aed; -webkit-text-stroke: #504aed"><span class="s2"><b>KEY IMPACT</b><b></b></span></h4>
+<p class="p16"><span class="s2"><b>✓</b><b></b></span></p>
+<p class="p17"><span class="s2">Faster turnaround on research-heavy pieces</span></p>
+<p class="p16"><span class="s2"><b>✓</b><b></b></span></p>
+<p class="p17"><span class="s2">Higher consistency in tone and quality across clients</span></p>
+<p class="p16"><span class="s2"><b>✓</b><b></b></span></p>
+<p class="p17"><span class="s2">Became the go-to resource for AI-assisted content within the team</span></p>
+<h4 style="margin: 0.0px 0.0px 4.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #504aed; -webkit-text-stroke: #504aed"><span class="s5"><b>MY ROLE</b><b></b></span></h4>
+<p class="p17"><span class="s5">Workflow design, tool evaluation, internal knowledge sharing</span></p>
+<p class="p19"><span class="s2">🔍</span></p>
+<p class="p23"><span class="s1"><b>AUDITS &amp; STRATEGY</b></span></p>
+<h3 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #141322; -webkit-text-stroke: #141322"><span class="s2">Client Website Content Audits</span></h3>
+<p class="p22"><span class="s2">Ongoing</span></p>
+<p class="p10"><span class="s2">Conducted comprehensive content audits across multiple client websites — analysing performance data, identifying gaps, and producing actionable recommendations. Used AI tools to accelerate analysis and surface patterns in large datasets, leading to positive results.</span></p>
+<h4 style="margin: 0.0px 0.0px 8.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #504aed; -webkit-text-stroke: #504aed"><span class="s2"><b>KEY IMPACT</b><b></b></span></h4>
+<p class="p16"><span class="s2"><b>✓</b><b></b></span></p>
+<p class="p17"><span class="s2">Audit findings directly shaped quarterly content plans</span></p>
+<p class="p16"><span class="s2"><b>✓</b><b></b></span></p>
+<p class="p17"><span class="s2">Identified high-impact quick wins for underperforming pages</span></p>
+<p class="p16"><span class="s2"><b>✓</b><b></b></span></p>
+<p class="p17"><span class="s2">Reports presented to both internal teams and clients</span></p>
+<h4 style="margin: 0.0px 0.0px 4.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #504aed; -webkit-text-stroke: #504aed"><span class="s5"><b>MY ROLE</b><b></b></span></h4>
+<p class="p17"><span class="s5">Auditing, data analysis, AI-assisted insight generation, reporting</span></p>
+<p class="p19"><span class="s2">📋</span></p>
+<p class="p23"><span class="s1"><b>AUDITS &amp; STRATEGY</b></span></p>
+<h3 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #141322; -webkit-text-stroke: #141322"><span class="s2">AI-Assisted Content Planning</span></h3>
+<p class="p22"><span class="s2">Ongoing</span></p>
+<p class="p10"><span class="s2">Translated audit data and market research into structured content plans using AI tools for keyword research and content gap prioritisation. Plans were tailored per client and presented with clear rationale.</span></p>
+<h4 style="margin: 0.0px 0.0px 8.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #504aed; -webkit-text-stroke: #504aed"><span class="s2"><b>KEY IMPACT</b><b></b></span></h4>
+<p class="p16"><span class="s2"><b>✓</b><b></b></span></p>
+<p class="p17"><span class="s2">Plans adopted across multiple client accounts</span></p>
+<p class="p16"><span class="s2"><b>✓</b><b></b></span></p>
+<p class="p17"><span class="s2">Reduced planning time while increasing depth of analysis</span></p>
+<p class="p16"><span class="s2"><b>✓</b><b></b></span></p>
+<p class="p17"><span class="s2">Improved alignment between content output and business goals</span></p>
+<h4 style="margin: 0.0px 0.0px 4.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #504aed; -webkit-text-stroke: #504aed"><span class="s5"><b>MY ROLE</b><b></b></span></h4>
+<p class="p17"><span class="s5">Strategic planning, AI-assisted analysis, client presentation</span></p>
+<p class="p19"><span class="s2">📝</span></p>
+<p class="p24"><span class="s1"><b>CONTENT PIECES</b></span></p>
+<h3 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #141322; -webkit-text-stroke: #141322"><span class="s2">Blog Posts, Articles &amp; Long-Form Content</span></h3>
+<p class="p22"><span class="s2">Ongoing</span></p>
+<p class="p10"><span class="s2">Continued to produce high-quality written content across a range of industries and formats — from SEO-driven blog posts to lead generation landing pages. AI tools used to support research with human judgment and editing throughout.</span></p>
+<h4 style="margin: 0.0px 0.0px 8.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #504aed; -webkit-text-stroke: #504aed"><span class="s2"><b>KEY IMPACT</b><b></b></span></h4>
+<p class="p16"><span class="s2"><b>✓</b><b></b></span></p>
+<p class="p17"><span class="s2">Consistent productivity across all clients</span></p>
+<p class="p16"><span class="s2"><b>✓</b><b></b></span></p>
+<p class="p17"><span class="s2">Organic traffic growth on key content pieces</span></p>
+<p class="p16"><span class="s2"><b>✓</b><b></b></span></p>
+<p class="p17"><span class="s2">Maintained quality bar while increasing output volume</span></p>
+<h4 style="margin: 0.0px 0.0px 4.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #504aed; -webkit-text-stroke: #504aed"><span class="s5"><b>MY ROLE</b><b></b></span></h4>
+<p class="p17"><span class="s5">Research, writing, editing, SEO optimisation</span></p>
+<p class="p19"><span class="s2">🤝</span></p>
+<p class="p12"><span class="s1"><b>CLIENT LEADERSHIP</b></span></p>
+<h3 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #141322; -webkit-text-stroke: #141322"><span class="s2">Client Reporting &amp; Stakeholder Communication</span></h3>
+<p class="p22"><span class="s2">Ongoing</span></p>
+<p class="p10"><span class="s2">Took on increasing responsibility for client-facing communication — presenting audit findings, campaign performance, and strategic recommendations to clients in various industries.</span></p>
+<h4 style="margin: 0.0px 0.0px 8.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #504aed; -webkit-text-stroke: #504aed"><span class="s2"><b>KEY IMPACT</b><b></b></span></h4>
+<p class="p16"><span class="s2"><b>✓</b><b></b></span></p>
+<p class="p17"><span class="s2">Built trust and credibility with client contacts</span></p>
+<p class="p16"><span class="s2"><b>✓</b><b></b></span></p>
+<p class="p17"><span class="s2">Improved feedback loops between content team and clients</span></p>
+<p class="p16"><span class="s2"><b>✓</b><b></b></span></p>
+<p class="p17"><span class="s2">Contributed to client retention and account growth</span></p>
+<h4 style="margin: 0.0px 0.0px 4.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #504aed; -webkit-text-stroke: #504aed"><span class="s5"><b>MY ROLE</b><b></b></span></h4>
+<p class="p17"><span class="s5">Reporting, presentation, relationship management</span></p>
 </body>
 </html>
